@@ -1,0 +1,21 @@
+@font-face {
+    font-family: iranSans;
+    src: url(./font/17/IRANSansWeb.ttf);
+  }
+  * {
+    font-family: iranSans;
+  }
+.arrowfaqs{
+  position: relative;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  transform: rotate(180deg);
+}
+.topLinking{
+ justify-content: center;
+  align-items: center;
+}
+.pagesMainBg{
+    direction: rtl;
+}

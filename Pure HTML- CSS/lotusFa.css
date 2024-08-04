@@ -1,0 +1,83 @@
+@font-face {
+  font-family: iranSans;
+  src: url(./font/17/IRANSansWeb.ttf);
+}
+* {
+  font-family: iranSans;
+}
+.lang {
+  flex-direction: row-reverse;
+}
+.loginBtn {
+  display: flex;
+  align-items: center;
+}
+.dropdown-menu .dropdown-item {
+  font-family: iranSans;
+}
+.mainGradientBg {
+  width: 100%;
+  background-image: -webkit-linear-gradient(
+    61deg,
+    transparent 40%,
+    #1c39bb 55%
+  );
+}
+.futureTitle span {
+  margin: 0 6px;
+  letter-spacing: 0;
+  line-height: 56px;
+}
+.bolerFuture {
+  font-weight: 600;
+}
+.action {
+  direction: ltr;
+  max-width: 472px;
+}
+.phoneImg {
+  left: calc(25% + 63px);
+  right: unset;
+}
+.moundBorder {
+  left: -32px;
+  right: unset;
+}
+.leftMound {
+  transform: rotate(-90deg);
+}
+.rightMound {
+  margin: 0 auto;
+  transform: rotate(0deg);
+}
+.descriptionPart {
+  padding-right: 0;
+}
+.videoSecBg {
+  background-position: 0 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://www.new-marketanalysis.com/imgs/hero/patterns/pattern3.png);
+}
+.sentences {
+  display: flex;
+  align-items: center;
+}
+.sentences i {
+  margin-left: 16px;
+  transform: rotate(180deg);
+}
+@media only screen and (max-width: 500px) {
+  .appStore {
+    margin-right: 32px !important;
+  }
+}
+.pages div {
+  margin: 0 10px 12px;
+}
+.close-popup {
+  right: 530px !important;
+}
+.logoPic img {
+  border-radius: 8px 0 0 8px;
+}
